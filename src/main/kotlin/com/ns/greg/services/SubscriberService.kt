@@ -19,6 +19,10 @@ class SubscriberService {
     return subscriberRepository.findById(id).get()
   }
 
+  fun getSubscriber(name: String): Subscriber {
+    return subscriberRepository.findByName(name).get()
+  }
+
   fun getSubscribers(): List<Subscriber> {
     return subscriberRepository.findAll()
   }
