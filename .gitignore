@@ -2,6 +2,7 @@
 ### Intellij template
 *.iml
 .idea
+*/out/
 ### Gradle template
 .gradle
 build/
